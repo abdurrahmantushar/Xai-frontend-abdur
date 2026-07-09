@@ -42,7 +42,7 @@ export const Hero = () =>{
                         <div className="hidden md:block absolute right-0 bottom-0 h-[400px] w-[400px] rounded-full bg-cyan-500/20 blur-[150px]" />
                     </div>       
             <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-20 items-center">
-                {/* lift side div eta*/}
+
                 <div>
 
                     <motion.div
@@ -83,7 +83,7 @@ export const Hero = () =>{
                     workspace built for modern decision-makers.               
                      </motion.p>
 
-                     {/* Butten sectionss eta */}
+
 
                      <motion.div
                     initial={{ opacity: 0 }}
@@ -134,9 +134,6 @@ export const Hero = () =>{
                      </div>
 
 
-
-                {/* Right side div eta */}
-                {/* Orb */}
                 <motion.div
                     initial={{ opacity: 0, scale: .8 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -189,7 +186,7 @@ export const Hero = () =>{
                       animate={{ y: [0, -10, 0] }}
                      transition={{ duration: 5, repeat: Infinity }}
                     className="absolute w-3 h-3 rounded-full bg-cyan-400 top-10 right-6 md:top-16 md:right-8"/>
-                    {/* ghure j oi dot gula */}
+ 
                     <motion.div
                     animate={{
                         scale: [1, 1.12, 1],

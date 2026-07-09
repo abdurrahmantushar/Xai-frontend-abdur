@@ -34,7 +34,6 @@ useEffect(() => {
         <DashboardShow />
         <IntelligenceFlow />
         <SignatureInteraction />
-        {/* <Clients/>  eta client er jnne  */}
         <Footer />
       </div>
     </>

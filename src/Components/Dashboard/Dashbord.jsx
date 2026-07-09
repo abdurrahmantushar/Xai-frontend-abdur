@@ -39,7 +39,7 @@ export const DashboardShow = () => {
            border-white/10 bg-white/5 backdrop-blur-xl shadow-[0_0_80px_rgba(139,92,246,.15)]"
         >
 
-          {/* Sidebar */}
+
 
           <div
             className="lg:col-span-3 border-r border-white/10 bg-[#0b1020]/90 p-8 backdrop-blur-xl">
@@ -88,7 +88,6 @@ export const DashboardShow = () => {
 
           </div>
 
-          {/* Main Dashboard */}
 
           <div className="lg:col-span-9 p-8">
 
@@ -208,7 +207,7 @@ export const DashboardShow = () => {
 
             </div>
 
-            {/* Chart */}
+
 
             <div
               className="mt-10 rounded-2xl border border-white/10
@@ -275,7 +274,7 @@ export const DashboardShow = () => {
 
             <div className="mt-8 grid lg:grid-cols-2 gap-6">
 
-              {/* Recent Activity ekhne add krsi*/}
+
 
               <div className="rounded-2xl bg-[#111827] border border-white/10 p-6 transition-all duration-300
                hover:border-violet-500/40 hover:-translate-y-1">

@@ -42,7 +42,6 @@ export const SignatureInteraction = () => {
                         className="absolute w-[300px] h-[300px] md:w-[430px] md:h-[430px] border
                      border-violet-500/30 rounded-full"
                     />
-                    {/* eta inner ring */}
                     <motion.div
                         animate={{ rotate: -360 }}
                         transition={{
@@ -52,7 +51,6 @@ export const SignatureInteraction = () => {
                         }}
                         className="absolute w-[240px] h-[240px] md:w-[300px] md:h-[300px] border border-cyan-400/20 rounded-full"
                     />
-                    {/* orb sorrunding particles */}
                     {
                         particles.map((item, index) => (
                             <motion.div
@@ -75,7 +73,6 @@ export const SignatureInteraction = () => {
                         ))
                     }
 
-                    {/* eta hlo center er orb */}
                     <motion.div
                         animate={{
                             scale: [1, 1.12, 1],

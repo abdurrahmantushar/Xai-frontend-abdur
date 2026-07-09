@@ -28,7 +28,7 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#050816]/80 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
 
-        {/* Logo */}
+
         <h1 
         onClick={() => scrollToSection('home')}
         className="text-3xl font-bold tracking-wide cursor-pointer bg-gradient-to-r
@@ -37,7 +37,7 @@ export const Navbar = () => {
           XAI
         </h1>
 
-        {/* Desktop Menu */}
+
         <ul className="hidden md:flex items-center gap-10 text-gray-300">
           {navLinks.map((item) => (
             <li
@@ -52,13 +52,12 @@ export const Navbar = () => {
           ))}
         </ul>
 
-        {/* Desktop Button  er jnne */}
         <button className="hidden md:block px-6 py-3 rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white font-medium 
                 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,92,246,.45)] transition-all duration-300">
           Get Started
         </button>
 
-        {/* Mobile Menu Button er jnne */}
+
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-white text-3xl"
@@ -67,7 +66,7 @@ export const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+
       <AnimatePresence>
       {open && (
         <motion.div 
