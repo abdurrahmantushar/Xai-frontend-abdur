@@ -89,7 +89,6 @@ src/
 
 ## 🎥 Project Walkthrough
 
-Coming Soon...
 
 https://drive.google.com/file/d/1UG6V9QWX0ZkLT3CtGtrDlG-D4lKUxIvr/view?usp=sharing
 
