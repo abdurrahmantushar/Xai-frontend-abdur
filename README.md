@@ -62,8 +62,8 @@ src/
 ├── Components/
 │   ├── Navbar/
 │   ├── Hero/
-│   ├── IntelligenceFlow/
 │   ├── Dashboard/
+│   ├── IntelligenceFlow/
 │   ├── SignatureInteraction/
 │   └── Footer/
 │
@@ -91,7 +91,7 @@ src/
 
 Coming Soon...
 
-(Video link will be added after upload.)
+https://drive.google.com/file/d/1UG6V9QWX0ZkLT3CtGtrDlG-D4lKUxIvr/view?usp=sharing
 
 ---
 
@@ -140,7 +140,7 @@ Portfolio:
 https://abdur-folio.netlify.app/
 
 LinkedIn:
-[https://linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/abdur-rahman-tushar-x/)
+https://linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/abdur-rahman-tushar-x/
 
 ---
 
