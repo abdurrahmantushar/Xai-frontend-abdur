@@ -6,6 +6,11 @@ import {
 
 
 export const Footer =()=>{
+  const scrollToSection = (id) => {
+  document.getElementById(id)?.scrollIntoView({
+    behavior: "smooth",
+  });
+};
     return(
         <footer className="bg-[#040611] border-t border-white/10 text-white">
             <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16">
@@ -26,19 +31,23 @@ export const Footer =()=>{
                         Navigation
                     </h3>
                     <ul className="space-y-4 text-gray-400">
-                        <li className="hover:text-white cursor-pointer transition">
+                        <li  onClick={() => scrollToSection("features")}
+                          className="hover:text-white cursor-pointer transition">
                             Features
                         </li>
 
-                        <li className="hover:text-white cursor-pointer transition">
+                        <li onClick={() => scrollToSection("dashboard")}
+                          className="hover:text-white cursor-pointer transition">
                             Dashboard
                         </li>
 
-                        <li className="hover:text-white cursor-pointer transition">
+                        <li onClick={() => scrollToSection("pricing")}
+                          className="hover:text-white cursor-pointer transition">
                             Pricing
                         </li>
 
-                        <li className="hover:text-white cursor-pointer transition">
+                        <li onClick={() => scrollToSection("about")}
+                          className="hover:text-white cursor-pointer transition">
 
                             About
                         </li>
