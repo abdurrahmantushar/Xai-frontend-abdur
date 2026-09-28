@@ -36,7 +36,6 @@ The goal of this project was to create a polished product experience rather than
 - React Icons
 - Git & GitHub
 - Vercel
-- Figma
 
 ---
 
@@ -81,19 +80,6 @@ src/
 
 ---
 
-## 🎨 Figma Design
-
-👉 https://www.figma.com/design/MwYLjcGcStyKNk2r5SXFCB/XAI-Intelligence-WorkspaceUntitled?node-id=0-1&p=f&t=0Fvdsjf2Qz0l2DdW-0
-
----
-
-## 🎥 Project Walkthrough
-
-
-https://drive.google.com/file/d/1UG6V9QWX0ZkLT3CtGtrDlG-D4lKUxIvr/view?usp=sharing
-
----
-
 ## 💻 GitHub Repository
 
 👉 https://github.com/abdurrahmantushar/Xai-frontend-abdur
@@ -125,21 +111,6 @@ Start the development server
 ```bash
 npm run dev
 ```
-
----
-
-## 👨‍💻 Author
-
-**Md. Abdur Rahman Tushar**
-
-GitHub:
-https://github.com/abdurrahmantushar
-
-Portfolio:
-https://abdur-folio.netlify.app/
-
-LinkedIn:
-https://linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/abdur-rahman-tushar-x/
 
 ---
 
