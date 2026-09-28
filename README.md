@@ -97,7 +97,7 @@ Clone the repository
 Go to the project directory
 
 ```bash
-cd YOUR_REPOSITORY
+cd Frontend-XAI
 ```
 
 Install dependencies
@@ -105,12 +105,10 @@ Install dependencies
 ```bash
 npm install
 ```
-
-Start the development server
-
 ```bash
 npm run dev
 ```
+The project will run on the local development server.
 
 ---
 
