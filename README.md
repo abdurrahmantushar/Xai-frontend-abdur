@@ -71,7 +71,14 @@ src/
 ```
 
 ---
-
+Main Dependencies
+React
+React DOM
+Framer Motion
+React Icons
+Tailwind CSS
+Vite
+---
 ## 🌐 Live Demo
 
 **Live Website**
